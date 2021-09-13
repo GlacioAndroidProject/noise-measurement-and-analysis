@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Noise measurement</string>
+    <string name="current_time_default">19:45:00 13/09/2021</string>
+    <string name="time_duration_default">00:01:03</string>
+</resources>

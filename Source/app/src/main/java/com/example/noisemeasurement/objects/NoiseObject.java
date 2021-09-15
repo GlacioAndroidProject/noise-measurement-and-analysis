@@ -1,15 +1,17 @@
 package com.example.noisemeasurement.objects;
 
-public class NoiseObject  extends  RecordingObject{
-    double noiseValue;
-    String measurementaddress;
+import java.util.ArrayList;
 
-    public double getNoiseValue() {
-        return noiseValue;
+public class NoiseObject  extends  RecordingObject{
+    double noiseAverageValue;
+    String measurementaddress;
+    ArrayList<Double>noiseValues;
+    public double getNoiseAverageValue() {
+        return noiseAverageValue;
     }
 
-    public void setNoiseValue(double noiseValue) {
-        this.noiseValue = noiseValue;
+    public void setNoiseAverageValue(double noiseAverageValue) {
+        this.noiseAverageValue = noiseAverageValue;
     }
 
     public String getMeasurementaddress() {
@@ -18,5 +20,13 @@ public class NoiseObject  extends  RecordingObject{
 
     public void setMeasurementaddress(String measurementaddress) {
         this.measurementaddress = measurementaddress;
+    }
+
+    public ArrayList<Double> getNoiseValues() {
+        return noiseValues;
+    }
+
+    public void setNoiseValues(ArrayList<Double> noiseValues) {
+        this.noiseValues = noiseValues;
     }
 }

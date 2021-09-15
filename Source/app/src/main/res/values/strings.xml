@@ -3,10 +3,14 @@
     <string name="current_time_default">19:45:00 13/09/2021</string>
     <string name="time_duration_default">00:01:03</string>
     <string name="noise_name_label">Noise name: </string>
-    <string name="noise_noise_value">Noise value: </string>
+    <string name="noise_value">Noise value: </string>
     <string name="noise_measurement_time">Measurement time: </string>
     <string name="noise_current_time">Current time: </string>
     <string name="recording">Recording..</string>
     <string name="stoped_recording">Stoped</string>
+    <string name="current_nosie_level">Noise level(dB): </string>
+    <string name="average_noise_level">Average noise level(dB): </string>
+    <string name="noise_unit">(dB)</string>
+
 
 </resources>

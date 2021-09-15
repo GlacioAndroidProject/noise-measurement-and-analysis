@@ -60,7 +60,7 @@
                     android:gravity="left|center"
                     android:id="@+id/labelNoiseValue"
                     android:textColor="@color/white"
-                    android:text="@string/noise_noise_value"
+                    android:text="@string/noise_value"
                     android:background="@drawable/boder_white"
 
                     />
